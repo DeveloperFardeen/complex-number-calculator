@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Number Calculator - Step 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Complex Number Calculator - Step 1</h2>
+  <div id="complexNumbers">
+    <div id="complex1">
+      <h3>First Number</h3>
+      <label for="re1">Re(Z₁):</label>
+      <input type="number" id="re1">
+      <label for="im1">Im(Z₁):</label>
+      <input type="number" id="im1">
+      <br>
+      <label for="abs1">|Z₁|:</label>
+      <input type="number" id="abs1" readonly>
+      <label for="arg1">Arg(Z₁)∠:</label>
+      <input type="number" id="arg1">
+    </div>
+    <div id="complex2">
+      <h3>Second Number</h3>
+      <label for="re2">Re(Z₂):</label>
+      <input type="number" id="re2">
+      <label for="im2">Im(Z₂):</label>
+      <input type="number" id="im2">
+      <br>
+      <label for="abs2">|Z₂|:</label>
+      <input type="number" id="abs2" readonly>
+      <label for="arg2">Arg(Z₂)∠:</label>
+      <input type="number" id="arg2">
+    </div>
+  </div>
+  <div id="operationButtons">
+    <button id="add">+</button>
+    <button id="subtract">-</button>
+    <button id="multiply">x</button>
+    <button id="divide">÷</button>
+    <button id="power">^</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
